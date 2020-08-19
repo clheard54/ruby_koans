@@ -82,6 +82,10 @@ task :walk_the_path do
   ruby 'path_to_enlightenment.rb'
 end
 
+task :c do
+  Pry.start
+end
+
 directory DOWNLOAD_DIR
 directory PROB_DIR
 
